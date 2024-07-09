@@ -1,0 +1,31 @@
+nav{
+	display: flex;
+	justify-content: space-between;
+	gap: 10rem;
+	align-items: center;
+	>ul{
+		display: flex;
+		justify-content: space-between;
+		gap: 2rem;
+		>li{
+			transition: all ease-in-out .3s;
+			&:hover{
+				color: #4da87e;
+			}
+		}
+	}
+
+	>div{
+		display: flex;
+		gap: 0.4rem;
+		button{
+			background: #4681cf;
+			padding: 7px 20px;
+			font-size: 16px;
+			outline: none;
+			border: none;
+			color: #fff;
+			border-radius: 8px;
+		}
+	}
+}
